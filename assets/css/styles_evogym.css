@@ -2,67 +2,67 @@
 
 /* Impostazioni generali */
 body {
-    font-family: 'Lato', sans-serif;
-    background-color: #292C32;
-    color: #F3F3F2;
-    margin: 0;
-    padding: 0;
+    font-family: 'Lato', sans-serif !important;
+    background-color: #292C32 !important;
+    color: #F3F3F2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 /* Stile dell'header */
 header {
-    background-color: #1F1F1E;
-    padding: 20px;
-    text-align: center;
+    background-color: #1F1F1E !important;
+    padding: 20px !important;
+    text-align: center !important;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    gap: 20px !important;
 }
 
 nav ul li {
-    display: inline;
+    display: inline !important;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #F3F3F2;
-    font-weight: bold;
-    padding: 10px 15px;
-    transition: color 0.3s, background-color 0.3s;
-    border-radius: 5px;
+    text-decoration: none !important;
+    color: #F3F3F2 !important;
+    font-weight: bold !important;
+    padding: 10px 15px !important;
+    transition: color 0.3s, background-color 0.3s !important;
+    border-radius: 5px !important;
 }
 
 nav ul li a:hover {
-    background-color: #FFBC8F;
-    color: #1F1F1E;
+    background-color: #FFBC8F !important;
+    color: #1F1F1E !important;
 }
 
 /* Stile del footer */
 footer {
-    background-color: #1A1A1A;
-    padding: 10px;
-    text-align: center;
+    background-color: #1A1A1A !important;
+    padding: 10px !important;
+    text-align: center !important;
 }
 
 /* Pulsante CTA */
 .cta-button {
-    display: inline-block;
-    background: #FFBC8F;
-    color: #1F1F1E;
-    padding: 12px 25px;
-    margin-top: 20px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background 0.3s;
+    display: inline-block !important;
+    background: #FFBC8F !important;
+    color: #1F1F1E !important;
+    padding: 12px 25px !important;
+    margin-top: 20px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    border-radius: 5px !important;
+    transition: background 0.3s !important;
 }
 
 .cta-button:hover {
-    background: #d4d4d1;
+    background: #d4d4d1 !important;
 }
