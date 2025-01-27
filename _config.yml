@@ -9,7 +9,7 @@
 #
 # Title of your website
 title: 'Evogym'
-theme: feeling-responsive
+remote_theme: "phlow/feeling-responsive"
 
 # The slogan describes your website and is used on homepage in <title> and other important places
 slogan: 'Il tuo personal trainer'
